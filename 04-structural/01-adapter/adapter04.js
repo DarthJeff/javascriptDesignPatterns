@@ -30,8 +30,8 @@ var squarePegInRoundHoleAdapter = {
     }
 };
 
-var buildAdapter = Object.assign({}, squarePeg, roundPeg, squarePegInRoundHoleAdapter);
-var adapter = Object.create(buildAdapter);
+Object.assign(squarePegInRoundHoleAdapter, squarePeg, roundPeg);
+var adapter = Object.create(squarePegInRoundHoleAdapter);
 
 adapter.width = 100;
 adapter.adapt();
