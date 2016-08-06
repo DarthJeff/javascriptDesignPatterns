@@ -1,27 +1,14 @@
 // Adapter makes things work after they're designed; Bridge makes them work before they are.
 
-var implementor = {
+var _implementor = {
     _output: function(val) {
-        this.output(val);
+        if(this.output){
+            this.output(val);
+        }
     }
 };
 
-var printerImplementor = {
-    output: function(val) {
-        console.log('Printer: ' + val);
-    }
-};
-var printerImplementorBuild = Object.assign(printerImplementor, implementor);
-
-
-var screenImplementor = {
-    output: function(val) {
-        console.log('Screen: ' + val);
-    }
-};
-var screenImplementorBuild = Object.assign(screenImplementor, implementor);
-
-var abstraction = {
+var _abstraction = {
     _on: function() {
         this._output('Switched On');
     },
@@ -29,6 +16,26 @@ var abstraction = {
         this._output('Switched Off');
     }
 };
+
+var bridgeBuild = Object.assign({}, _abstraction, _implementor);
+
+
+
+
+var printerImplementor = {
+    output: function(val) {
+        console.log('Printer: ' + val);
+    }
+};
+
+var screenImplementor = {
+    output: function(val) {
+        console.log('Screen: ' + val);
+    }
+};
+
+
+
 
 var switchAbstraction = {
     switchOn: function() {
@@ -38,7 +45,6 @@ var switchAbstraction = {
         this._off();
     }
 };
-var switchAbstractionBuild = Object.assign(switchAbstraction, abstraction);
 
 var gestureAbstraction = {
     tap: function() {
@@ -50,7 +56,8 @@ var gestureAbstraction = {
         }
     }
 };
-var gestureAbstractionBuild = Object.assign(gestureAbstraction, abstraction);
+
+
 
 
 
