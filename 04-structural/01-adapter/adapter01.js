@@ -1,8 +1,8 @@
-//
+// adapter pattern
 
-var squarePeg = {};
-var roundHole = {};
+//var squarePeg = {};
+//var roundHole = {};
 
-var roundHoleAdpterForSquarePegs = {};
+//var roundHoleAdpterForSquarePegs = {};
 
 
