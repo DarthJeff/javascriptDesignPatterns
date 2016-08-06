@@ -1,4 +1,4 @@
-// a round peg in a round hole
+// solution 1
 
 var roundPeg = {
     get diameter() {
@@ -9,14 +9,26 @@ var roundPeg = {
     }
 };
 
+var squarePeg = {
+    get width() {
+        return this._width || 0;
+    },
+    set width (w) {
+        this._width = w;
+    }
+};
+
 var roundHole = {
     calcCircumfrence: function(roundPeg) {
         return Math.PI * roundPeg.diameter;
     }
 };
 
+var sPeg = Object.create(squarePeg);
+sPeg.width = 100;
+
 var rPeg = Object.create(roundPeg);
-rPeg.diameter = 100;
+rPeg.diameter = sPeg.width;
 
 var hole = Object.create(roundHole);
 var c = hole.calcCircumfrence(rPeg);
