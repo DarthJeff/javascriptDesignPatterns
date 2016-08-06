@@ -1,2 +1,1 @@
-# javascriptDesignPatterns
-Javascript Design Patterns
+# Javascript Design Patterns
