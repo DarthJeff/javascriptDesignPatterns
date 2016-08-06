@@ -17,11 +17,6 @@ var _abstraction = {
     }
 };
 
-var bridgeBuild = Object.assign({}, _abstraction, _implementor);
-
-
-
-
 var printerImplementor = {
     output: function(val) {
         console.log('Printer: ' + val);
@@ -34,9 +29,6 @@ var screenImplementor = {
     }
 };
 
-
-
-
 var switchAbstraction = {
     switchOn: function() {
         this._on();
@@ -48,7 +40,7 @@ var switchAbstraction = {
 
 var gestureAbstraction = {
     tap: function() {
-        this._tap = !(_tap || false);
+        this._tap = !(this._tap || false);
         if(this._tap){
             this._on();
         } else {
@@ -58,7 +50,23 @@ var gestureAbstraction = {
 };
 
 
+var switchPrinterbridgeBuild = Object.assign({}, _abstraction, _implementor, printerImplementor, switchAbstraction);
+var gesturePrinterbridgeBuild = Object.assign({}, _abstraction, _implementor, printerImplementor, gestureAbstraction);
+var switchScreenbridgeBuild = Object.assign({}, _abstraction, _implementor, screenImplementor, switchAbstraction);
+var gestureScreenbridgeBuild = Object.assign({}, _abstraction, _implementor, screenImplementor, gestureAbstraction);
 
+var switchPrinterbridge = Object.create(switchPrinterbridgeBuild);
+switchPrinterbridge.switchOn();
+switchPrinterbridge.switchOff();
 
+var gesturePrinterbridge = Object.create(gesturePrinterbridgeBuild);
+gesturePrinterbridge.tap();
+gesturePrinterbridge.tap();
 
+var switchScreenbridge = Object.create(switchScreenbridgeBuild);
+switchScreenbridge.switchOn();
+switchScreenbridge.switchOff();
 
+var gestureScreenbridge = Object.create(gestureScreenbridgeBuild);
+gestureScreenbridge.tap();
+gestureScreenbridge.tap();
