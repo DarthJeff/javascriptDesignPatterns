@@ -8,19 +8,16 @@ var footballTeams = function() {
 
 var footballTeamApi = {
     getAllTeams: function() {
-        return footballTeams();
+        if(!this._teams) {
+            this._teams = footballTeams();
+        }
+        return this._teams;
     }
 };
 
 var teams1 = footballTeamApi.getAllTeams();
+teams1.push('Wolves');
 console.log(teams1);
 
 var teams2 = footballTeamApi.getAllTeams();
 console.log(teams2);
-
-var teams3 = footballTeamApi.getAllTeams();
-teams3.push('Wolves');
-console.log(teams3);
-
-var teams4 = footballTeamApi.getAllTeams();
-console.log(teams4);
