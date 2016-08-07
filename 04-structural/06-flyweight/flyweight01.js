@@ -1,4 +1,4 @@
-// cache
+//
 
 var footballTeams = function() {
     return [

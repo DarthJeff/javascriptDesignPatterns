@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" afterPath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" afterPath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" afterPath="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
     </list>
     <ignored path="JavaScript Design Patterns.iws" />
@@ -28,11 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flyweight02.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flyweight02.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy02.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy02.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -41,8 +62,8 @@
       <file leaf-file-name="flyweight01.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -71,9 +92,10 @@
         <option value="$PROJECT_DIR$/04-structural/03-composite/composite01.js" />
         <option value="$PROJECT_DIR$/04-structural/04-decorator/decorator01.js" />
         <option value="$PROJECT_DIR$/04-structural/05-facade/facade01.js" />
-        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
         <option value="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" />
         <option value="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" />
+        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
+        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
       </list>
     </option>
   </component>
@@ -288,10 +310,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.flyweight02.js">
-    <configuration default="false" name="decorator01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="decorator01.js" working-dir="$PROJECT_DIR$/04-structural/04-decorator">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.proxy02.js">
     <configuration default="false" name="facade01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="facade01.js" working-dir="$PROJECT_DIR$/04-structural/05-facade">
       <method />
     </configuration>
@@ -302,6 +321,9 @@
       <method />
     </configuration>
     <configuration default="false" name="flyweight02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="flyweight02.js" working-dir="$PROJECT_DIR$/04-structural/06-flyweight">
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="proxy02.js" working-dir="$PROJECT_DIR$/04-structural/07-proxy">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -358,19 +380,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.decorator01.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.facade01.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.facade01.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.proxy02.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.facade01.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.decorator01.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.proxy02.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.facade01.js" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +416,7 @@
       <workItem from="1470471267177" duration="4000" />
       <workItem from="1470471514361" duration="9091000" />
       <workItem from="1470500138972" duration="10029000" />
-      <workItem from="1470590059174" duration="4622000" />
+      <workItem from="1470590059174" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1470471647488</created>
@@ -459,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470595859686</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="structural - proxy">
+      <created>1470596684894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1470596684894</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25452000" />
+    <option name="totallyTimeSpent" value="25630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,7 +544,8 @@
     <MESSAGE value="structural - decorator" />
     <MESSAGE value="structural - facade" />
     <MESSAGE value="structural - flyweight" />
-    <option name="LAST_COMMIT_MESSAGE" value="structural - flyweight" />
+    <MESSAGE value="structural - proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural - proxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,26 +691,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy01.js">
+    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
+    <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
