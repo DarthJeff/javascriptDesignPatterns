@@ -1,23 +1,38 @@
-//
+// optimizing code that is repetitive, slow and inefficiently shares data
+// intrinsic states
+// extrinsic states
 
-var footballTeams = function() {
-    return [
-        'WBA', 'Aston Villa', 'Birmingham City'
-    ];
+// data normalisation
+
+var carFactory = function(make, model) {
+    var car = {
+        make: make,
+        model: model
+    };
+    return Object.create(car);
 };
-
-var footballTeamApi = {
-    getAllTeams: function() {
-        if(!this._teams) {
-            this._teams = footballTeams();
-        }
-        return this._teams;
+var carManager = function(make, model) {
+    var carCollection = [];
+    var car = carCollection[make + model];
+    if(!car) {
+        car = carFactory(make, model);
+        carCollection[make + model] = car;
     }
+    return car;
 };
 
-var teams1 = footballTeamApi.getAllTeams();
-teams1.push('Wolves');
-console.log(teams1);
+var driverFactory = function(driverID, driverName) {
+    var driver = {
+        driverID: driverID,
+        driverName: driverName
+    };
+    return Object.create(driver);
+};
 
-var teams2 = footballTeamApi.getAllTeams();
-console.log(teams2);
+var rentalCar = {
+    carType: null,
+    registrationNumber: null,
+    miles: null,
+    status: 0,
+    driver: null
+};

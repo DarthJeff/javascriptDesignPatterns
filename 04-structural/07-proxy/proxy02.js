@@ -1,4 +1,4 @@
-//
+// cache to increase efficiency
 
 var api = {
     getAllTeams: function() {

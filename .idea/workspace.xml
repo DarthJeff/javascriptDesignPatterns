@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" afterPath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" afterPath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" afterPath="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" afterPath="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
     </list>
     <ignored path="JavaScript Design Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +31,40 @@
       <file leaf-file-name="flyweight02.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bridge01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-structural/02-bridge/bridge01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composite01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-structural/03-composite/composite01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-852">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-structural/04-decorator/decorator01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,21 +80,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxy02.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proxy02.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy02.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flyweight01.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flyweight01.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facade01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-structural/05-facade/facade01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -92,10 +133,10 @@
         <option value="$PROJECT_DIR$/04-structural/03-composite/composite01.js" />
         <option value="$PROJECT_DIR$/04-structural/04-decorator/decorator01.js" />
         <option value="$PROJECT_DIR$/04-structural/05-facade/facade01.js" />
+        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
+        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
         <option value="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" />
         <option value="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" />
-        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" />
-        <option value="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" />
       </list>
     </option>
   </component>
@@ -138,6 +179,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,10 +343,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +351,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.proxy02.js">
+  <component name="RunManager" selected="Node.js.flyweight01.js">
     <configuration default="false" name="facade01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="facade01.js" working-dir="$PROJECT_DIR$/04-structural/05-facade">
       <method />
     </configuration>
@@ -388,10 +429,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.proxy02.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.proxy02.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.proxy01.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.facade01.js" />
       </list>
     </recent_temporary>
@@ -416,7 +457,8 @@
       <workItem from="1470471267177" duration="4000" />
       <workItem from="1470471514361" duration="9091000" />
       <workItem from="1470500138972" duration="10029000" />
-      <workItem from="1470590059174" duration="4800000" />
+      <workItem from="1470590059174" duration="5408000" />
+      <workItem from="1470773237636" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1470471647488</created>
@@ -488,11 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470596684894</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="structural - proxy">
+      <created>1470596859057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1470596859057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25630000" />
+    <option name="totallyTimeSpent" value="31355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,6 +603,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-structural/03-composite/composite01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/02-bridge/bridge01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-structural/01-adapter/adapter04.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -667,46 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/04-decorator/decorator01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/03-composite/composite01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/05-facade/facade01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -718,7 +753,57 @@
     <entry file="file://$PROJECT_DIR$/04-structural/07-proxy/proxy02.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/02-bridge/bridge01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/03-composite/composite01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-852">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/04-decorator/decorator01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/05-facade/facade01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
