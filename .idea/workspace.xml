@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="structural - state">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-behavioral/02-strategy/strategy01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-behavioral/01-State/state01.js" afterPath="$PROJECT_DIR$/05-behavioral/01-state/state01.js" />
+    <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript Design Patterns.iws" />
@@ -37,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strategy01.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strategy01.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-behavioral/02-strategy/strategy01.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -45,6 +44,16 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templateMethod01.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/05-behavioral/01-State/state01.js" />
         <option value="$PROJECT_DIR$/05-behavioral/01-state/state01.js" />
         <option value="$PROJECT_DIR$/05-behavioral/02-strategy/strategy01.js" />
+        <option value="$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js" />
       </list>
     </option>
   </component>
@@ -138,6 +148,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-behavioral" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-templateMethod" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,7 +373,7 @@
       <workItem from="1470590059174" duration="5408000" />
       <workItem from="1470773237636" duration="5117000" />
       <workItem from="1470816297744" duration="10491000" />
-      <workItem from="1471512405135" duration="14330000" />
+      <workItem from="1471512405135" duration="15067000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1470471647488</created>
@@ -438,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471525727459</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="structural - sort">
+      <created>1471528405443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1471528405443</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56176000" />
+    <option name="totallyTimeSpent" value="56913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +531,8 @@
     <MESSAGE value="structural - flyweight" />
     <MESSAGE value="structural - proxy" />
     <MESSAGE value="structural - state" />
-    <option name="LAST_COMMIT_MESSAGE" value="structural - state" />
+    <MESSAGE value="structural - sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural - sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,14 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-creational/02-builder/builder01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-creational/02-builder/builder02.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -897,6 +925,14 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
