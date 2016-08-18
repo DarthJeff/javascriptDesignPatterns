@@ -1,4 +1,4 @@
-//
+// Alter an object's behavior when its state changes
 
 var fruitStockList = [];
 
