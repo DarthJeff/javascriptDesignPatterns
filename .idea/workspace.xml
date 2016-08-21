@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="structural - module">
+    <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScope.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-2.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-JavaScript Structure/01-Modules/module01.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory01.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory02.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory03.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory03.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory04.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory04.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory05.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory05.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/01-factory/factory06.js" afterPath="$PROJECT_DIR$/04-Creational/01-Factory/factory06.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/02-builder/builder01.js" afterPath="$PROJECT_DIR$/04-Creational/02-Builder/builder01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/02-builder/builder02.js" afterPath="$PROJECT_DIR$/04-Creational/02-Builder/builder02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/02-builder/builder03.js" afterPath="$PROJECT_DIR$/04-Creational/02-Builder/builder03.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/03-abstractFactory/abstractFactory01.js" afterPath="$PROJECT_DIR$/04-Creational/03-Abstract Factory/abstractFactory01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/03-abstractFactory/abstractFactory02.js" afterPath="$PROJECT_DIR$/04-Creational/03-Abstract Factory/abstractFactory02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/04-singleton/singleton01.js" afterPath="$PROJECT_DIR$/04-Creational/04-Singleton/singleton01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-creational/04-singleton/singleton02.js" afterPath="$PROJECT_DIR$/04-Creational/04-Singleton/singleton02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/01-adapter/adapter01.js" afterPath="$PROJECT_DIR$/05-Structural/01-Adapter/adapter01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/01-adapter/adapter02.js" afterPath="$PROJECT_DIR$/05-Structural/01-Adapter/adapter02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/01-adapter/adapter03.js" afterPath="$PROJECT_DIR$/05-Structural/01-Adapter/adapter03.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/01-adapter/adapter04.js" afterPath="$PROJECT_DIR$/05-Structural/01-Adapter/adapter04.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/02-bridge/bridge01.js" afterPath="$PROJECT_DIR$/05-Structural/02-Bridge/bridge01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/03-composite/composite01.js" afterPath="$PROJECT_DIR$/05-Structural/03-Composite/composite01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/04-decorator/decorator01.js" afterPath="$PROJECT_DIR$/05-Structural/04-Decorator/decorator01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/05-facade/facade01.js" afterPath="$PROJECT_DIR$/05-Structural/05-Facade/facade01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight01.js" afterPath="$PROJECT_DIR$/05-Structural/06-Flyweight/flyweight01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/06-flyweight/flyweight02.js" afterPath="$PROJECT_DIR$/05-Structural/06-Flyweight/flyweight02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/07-proxy/proxy01.js" afterPath="$PROJECT_DIR$/05-Structural/07-Proxy/proxy01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-structural/07-proxy/proxy02.js" afterPath="$PROJECT_DIR$/05-Structural/07-Proxy/proxy02.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-behavioral/01-state/state01.js" afterPath="$PROJECT_DIR$/06-Behavioral/01-State/state01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-behavioral/02-strategy/strategy01.js" afterPath="$PROJECT_DIR$/06-Behavioral/02-Strategy/strategy01.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js" afterPath="$PROJECT_DIR$/06-Behavioral/02-Template Method/templateMethod01.js" />
     </list>
     <ignored path="JavaScript Design Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +32,83 @@
     <favorites_list name="JavaScript Design Patterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="moduleFile01-1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moduleFile01-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalScope.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScope.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalScopeFile1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globalScopeFile2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -84,7 +136,6 @@
         <option value="$PROJECT_DIR$/05-behavioral/01-state/state01.js" />
         <option value="$PROJECT_DIR$/05-behavioral/02-strategy/strategy01.js" />
         <option value="$PROJECT_DIR$/05-behavioral/02-templateMethod/templateMethod01.js" />
-        <option value="$PROJECT_DIR$/03-JavaScript Structure/01-Modules/module01.js" />
         <option value="$PROJECT_DIR$/04-Creational/01-Factory/factory01.js" />
         <option value="$PROJECT_DIR$/04-Creational/02-Builder/builder01.js" />
         <option value="$PROJECT_DIR$/04-Creational/03-Abstract Factory/abstractFactory01.js" />
@@ -99,6 +150,15 @@
         <option value="$PROJECT_DIR$/06-Behavioral/01-State/state01.js" />
         <option value="$PROJECT_DIR$/06-Behavioral/02-Strategy/strategy01.js" />
         <option value="$PROJECT_DIR$/06-Behavioral/02-Template Method/templateMethod01.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/01-Modules/module01.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope1.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module01.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-2.js" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScope.html" />
+        <option value="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module.html" />
       </list>
     </option>
   </component>
@@ -111,9 +171,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+    <option name="x" value="-7" />
     <option name="width" value="1932" />
-    <option name="height" value="1066" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -140,10 +200,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Tests" />
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -428,7 +488,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="01-Modules" />
+              <option name="myItemId" value="03-Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-JavaScript Structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-Global Scope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptDesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-JavaScript Structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-Scope" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,14 +537,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Node.js.strategy01.js">
-    <configuration default="false" name="flyweight01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/05-Structural/06-Flyweight/flyweight01.js" working-dir="$PROJECT_DIR$/05-Structural/06-Flyweight">
-      <method />
-    </configuration>
-    <configuration default="false" name="flyweight02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/05-Structural/06-Flyweight/flyweight02.js" working-dir="$PROJECT_DIR$/05-Structural/06-Flyweight">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.globalScope.html">
     <configuration default="false" name="factory01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/04-Creational/01-Factory/factory01.js" working-dir="$PROJECT_DIR$/04-Creational/01-Factory">
       <method />
     </configuration>
@@ -456,6 +550,12 @@
       <method />
     </configuration>
     <configuration default="false" name="strategy01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/06-Behavioral/02-Strategy/strategy01.js" working-dir="$PROJECT_DIR$/06-Behavioral/02-Strategy">
+      <method />
+    </configuration>
+    <configuration default="false" name="module01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-1.js" working-dir="$PROJECT_DIR$/03-JavaScript Structure/03-Modules">
+      <method />
+    </configuration>
+    <configuration default="false" name="globalScope.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascriptDesignPatterns/03-JavaScript Structure/02-Global Scope/globalScope.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -512,19 +612,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.factory01.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.state01.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.strategy01.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.factory01.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.state01.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.strategy01.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.module01.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.globalScope.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.strategy01.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.state01.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.factory01.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.flyweight01.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.flyweight02.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.globalScope.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.module01.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.strategy01.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.state01.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.factory01.js" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +653,8 @@
       <workItem from="1470816297744" duration="10491000" />
       <workItem from="1471512405135" duration="15067000" />
       <workItem from="1471602833501" duration="650000" />
-      <workItem from="1471692716355" duration="636000" />
+      <workItem from="1471692716355" duration="5021000" />
+      <workItem from="1471777909426" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1470471647488</created>
@@ -660,11 +761,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471693219749</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="structural - module">
+      <created>1471693360142</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1471693360142</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58199000" />
+    <option name="totallyTimeSpent" value="63775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,27 +784,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1932" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1932" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591029" sideWeight="0.4905149" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.164297" sideWeight="0.50948507" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24532454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2463002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -729,56 +837,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-Creational/02-Builder/builder03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-Creational/03-Abstract Factory/abstractFactory01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Structural/06-Flyweight/flyweight02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Structural/02-Bridge/bridge01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Structural/03-Composite/composite01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Structural/04-Decorator/decorator01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-Structural/07-Proxy/proxy01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,19 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/01-Modules/module01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Creational/01-Factory/factory01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="92" selection-start-line="0" selection-start-column="92" selection-end-line="0" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,9 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,9 +1142,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
