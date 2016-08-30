@@ -1,3 +1,3 @@
-// file 1
+'use strict';
 
 var lion = 10;

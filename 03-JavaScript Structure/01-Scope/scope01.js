@@ -27,11 +27,11 @@
 // cave();
 // console.log(lion);
 
-
-'use strict';
-var lion = 20;
-function cave() {
-    console.log(lion);
-}
-cave();
-console.log(lion);
+//
+// 'use strict';
+// var lion = 20;
+// function cave() {
+//     console.log(lion);
+// }
+// cave();
+// console.log(lion);
