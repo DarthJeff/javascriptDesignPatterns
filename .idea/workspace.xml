@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7dcf6-cccc-416d-adba-ad2134cffd66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope00.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/sequential1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/sequential2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-globalScopeVersion/module01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-globalScopeVersion/moduleFile01-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-globalScopeVersion/moduleFile01-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-globalScopeVersion/moduleFile01-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-scopeVersion/moduleFile02-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-scopeVersion/moduleFile02-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-scopeVersion/moduleFile02-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-JavaScript Structure/06-Inheritance &amp; Delegation/inheritance02.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-1.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript Design Patterns Video Script.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js" afterPath="$PROJECT_DIR$/03-JavaScript Structure/01-Scope/scope01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js" afterPath="$PROJECT_DIR$/03-JavaScript Structure/02-Global Scope/globalScopeFile2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/module.html" afterPath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/01-scopeVersion/module02.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03-JavaScript Structure/03-Modules/moduleFile01-2.js" afterPath="$PROJECT_DIR$/03-JavaScript Structure/06-Inheritance &amp; Delegation/inheritance01.js" />
     </list>
     <ignored path="JavaScript Design Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,64 +152,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-JavaScript Structure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-JavaScript Structure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-scopeVersion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascriptDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-JavaScript Structure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-globalScopeVersion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -248,11 +173,12 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GIT Repositories\javascriptDesignPatterns\03-JavaScript Structure\03-Modules" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GIT Repositories\javascriptDesignPatterns\03-JavaScript Structure\03-Modules\01-globalScopeVersion" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT Repositories\javascriptDesignPatterns" />
+      <recent name="D:\GIT Repositories\javascriptDesignPatterns\03-JavaScript Structure\03-Modules" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.globalScope.html">
@@ -371,7 +297,7 @@
       <workItem from="1472299671605" duration="229000" />
       <workItem from="1472498469293" duration="1485000" />
       <workItem from="1472583499969" duration="3019000" />
-      <workItem from="1472591015728" duration="5000" />
+      <workItem from="1472591015728" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1470471647488</created>
@@ -492,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471785324791</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="structural - module">
+      <created>1472591029238</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1472591029238</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77783000" />
+    <option name="totallyTimeSpent" value="77864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,6 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -851,6 +785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,6 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,6 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -879,6 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,6 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,6 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,6 +848,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,6 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,6 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
