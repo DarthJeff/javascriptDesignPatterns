@@ -1,66 +1,81 @@
-// multiple object factory creation
+//  multiple object factory creation
 
-var car = {
-    init: function() {
-        this.vehicleType = 'car';
+var kitchenitems = {
+    spoon: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; }
     },
-    whoAmI: function () {
-        console.log('I am a ' + this.vehicleType);
-    }
-};
-var van = {
-    init: function() {
-        this.vehicleType = 'van';
+    pan: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; }
     },
-    whoAmI: function () {
-        console.log('I am a ' + this.vehicleType);
-    }
-};
-var lorry = {
-    init: function() {
-        this.vehicleType = 'lorry';
-    },
-    whoAmI: function () {
-        console.log('I am a ' + this.vehicleType);
+    cupboard: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; },
+        get items() { return this._items; },
+        clean: function() {
+            this._items = [];
+        }
     }
 };
 
-var vehicleFactory = (function () {
+var kitchenFactory = (function (items) {
     return {
-        create: function (factoryType) {
-            switch(factoryType) {
-                case 'car':
-                    return Object.create(car);
-                    break;
-                case 'van':
-                    return Object.create(van);
-                    break;
-                case 'lorry':
-                    return Object.create(lorry);
-                    break;
+        create: function (itemName) {
+            switch (itemName) {
+                case 'Pan Cupboard':
+                    return Object.create(items.cupboard);
+                case 'Saucepan':
+                    return Object.create(items.pan);
+                case 'Spoon Cupboard':
+                    return Object.create(items.cupboard);
+                case 'Tea Spoon':
+                    return Object.create(items.spoon);
+                case 'Dessert Spoon':
+                    return Object.create(items.spoon);
             }
         }
     }
-})();
+})(kitchenitems);
 
-var collectionOfVehicles = (function(factory) {
-    var vehicles = [];
+var kitchen = (function(factory){
 
-    var vehicle1 = factory.create('van');
-    vehicle1.init();
-    vehicles.push(vehicle1);
+    var panCupboardName = 'Pan Cupboard';
+    var panCupboard = factory.create(panCupboardName);
+    panCupboard.name = panCupboardName;
+    panCupboard.clean();
 
-    var vehicle2 = factory.create('lorry');
-    vehicle2.init();
-    vehicles.push(vehicle2);
+    var saucepanName = 'Saucepan';
+    var saucepan = factory.create(saucepanName);
+    saucepan.name = saucepanName;
+    panCupboard.items.push(saucepan);
 
-    var vehicle3 = factory.create('car');
-    vehicle3.init();
-    vehicles.push(vehicle3);
+    var spoonCupboardName = 'Spoon Cupboard';
+    var spoonCupboard = factory.create(spoonCupboardName);
+    spoonCupboard.name = spoonCupboardName;
+    spoonCupboard.clean();
 
-    return vehicles;
-})(vehicleFactory);
+    var teaSpoonName = 'Tea Spoon';
+    var teaSpoon = factory.create(teaSpoonName);
+    teaSpoon.name = teaSpoonName;
+    spoonCupboard.items.push(teaSpoon);
 
-collectionOfVehicles[0].whoAmI();
-collectionOfVehicles[1].whoAmI();
-collectionOfVehicles[2].whoAmI();
+    var dessertSpoonName = 'Dessert Spoon';
+    var dessertSpoon = factory.create(dessertSpoonName);
+    dessertSpoon.name = dessertSpoonName;
+    spoonCupboard.items.push(dessertSpoon);
+
+    return {
+        units: [panCupboard, spoonCupboard]
+    };
+
+})(kitchenFactory);
+
+// log results
+for(var u = 0; u < kitchen.units.length; u++){
+    var unit = kitchen.units[u];
+    for(var i = 0; i < unit.items.length; i++){
+        var item = unit.items[i];
+        console.log(unit.name, 'contains:', item.name);
+    }
+}

@@ -1,52 +1,60 @@
-// object creation
-
-var car = {
-    get make() {
-        return this._make || '';
+var kitchenitems = {
+    spoon: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; }
     },
-    set make (ma) {
-        this._make = ma;
+    pan: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; }
     },
-    get model() {
-        return this._model || '';
-    },
-    set model (mo) {
-        this._model = mo;
+    cupboard: {
+        get name() { return this._name || ''; },
+        set name(n) { this._name = n; },
+        get items() { return this._items; },
+        clean: function() {
+            this._items = [];
+        }
     }
 };
 
-var car = {
-    make: 'Mercedes',
-    model: 'A Class'
-};
+var kitchen = (function(items){
 
-var car = {
-    init: function() {
-        this.vehicleType = 'car';
-    },
-    whoAmI: function () {
-        console.log('I am a ' + this.vehicleType);
+    var panCupboardName = 'Pan Cupboard';
+    var panCupboard = Object.create(items.cupboard);
+    panCupboard.name = panCupboardName;
+    panCupboard.clean();
+
+    var saucepanName = 'Saucepan';
+    var saucepan = Object.create(items.pan);
+    saucepan.name = saucepanName;
+    panCupboard.items.push(saucepan);
+
+    var spoonCupboardName = 'Spoon Cupboard';
+    var spoonCupboard = Object.create(items.cupboard);
+    spoonCupboard.name = spoonCupboardName;
+    spoonCupboard.clean();
+
+    var teaSpoonName = 'Tea Spoon';
+    var teaSpoon = Object.create(items.spoon);
+    teaSpoon.name = teaSpoonName;
+    spoonCupboard.items.push(teaSpoon);
+
+    var dessertSpoonName = 'Dessert Spoon';
+    var dessertSpoon = Object.create(items.spoon);
+    dessertSpoon.name = dessertSpoonName;
+    spoonCupboard.items.push(dessertSpoon);
+
+    return {
+        units: [panCupboard, spoonCupboard]
+    };
+
+})(kitchenitems);
+
+// log results
+for(var u = 0; u < kitchen.units.length; u++){
+    var unit = kitchen.units[u];
+    for(var i = 0; i < unit.items.length; i++){
+        var item = unit.items[i];
+        console.log(unit.name, 'contains:', item.name);
     }
-};
-
-var vehicle1 = Object.create(car);
-vehicle1.init();
-vehicle1.whoAmI();
-
-
-vehicle1.name = 'jeff';
-
-var vehicle2 = Object.create(car);
-vehicle2.name = 'susie';
-
-
-console.log(vehicle1.name);
-console.log(vehicle2.name);
-
-var carMercedes = Object.create(car);
-carMercedes.make = 'Mercedes';
-carMercedes.model = 'A Class';
-
-var carAudi = Object.create(car);
-carMercedes.make = 'Audi';
-carMercedes.model = 'A3';
+}

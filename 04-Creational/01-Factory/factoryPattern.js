@@ -1,5 +1,3 @@
-// object creation - unit testing issues - proposed solution
-
 var kitchenitems = {
     spoon: {
         get name() { return this._name || ''; },
@@ -21,8 +19,19 @@ var kitchenitems = {
 
 var kitchenFactory = (function(items){
     return {
-        create: function (item) {
-            return Object.create(item);
+        create: function (itemName) {
+            switch (itemName) {
+                case 'Pan Cupboard':
+                    return Object.create(items.cupboard);
+                case 'Saucepan':
+                    return Object.create(items.pan);
+                case 'Spoon Cupboard':
+                    return Object.create(items.cupboard);
+                case 'Tea Spoon':
+                    return Object.create(items.spoon);
+                case 'Dessert Spoon':
+                    return Object.create(items.spoon);
+            }
         }
     };
 })(kitchenitems);
@@ -30,27 +39,27 @@ var kitchenFactory = (function(items){
 var kitchen = (function(factory){
 
     var panCupboardName = 'Pan Cupboard';
-    var panCupboard = factory.create(items.cupboard);
+    var panCupboard = factory.create(panCupboardName);
     panCupboard.name = panCupboardName;
     panCupboard.clean();
 
     var saucepanName = 'Saucepan';
-    var saucepan = factory.create(items.pan);
+    var saucepan = factory.create(saucepanName);
     saucepan.name = saucepanName;
     panCupboard.items.push(saucepan);
 
     var spoonCupboardName = 'Spoon Cupboard';
-    var spoonCupboard = factory.create(items.cupboard);
+    var spoonCupboard = factory.create(spoonCupboardName);
     spoonCupboard.name = spoonCupboardName;
     spoonCupboard.clean();
 
     var teaSpoonName = 'Tea Spoon';
-    var teaSpoon = factory.create(items.spoon);
+    var teaSpoon = factory.create(teaSpoonName);
     teaSpoon.name = teaSpoonName;
     spoonCupboard.items.push(teaSpoon);
 
     var dessertSpoonName = 'Dessert Spoon';
-    var dessertSpoon = factory.create(items.spoon);
+    var dessertSpoon = factory.create(dessertSpoonName);
     dessertSpoon.name = dessertSpoonName;
     spoonCupboard.items.push(dessertSpoon);
 
