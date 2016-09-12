@@ -1,24 +1,24 @@
-function baseShapeClass(width, height) {
+function BaseShapeClass(width, height) {
     this.width = width;
     this.height = height;
 }
 
-baseShapeClass.prototype.area = function() {
+BaseShapeClass.prototype.area = function() {
     console.log(this.width * this.height);
 };
 
-function square(width) {
-    baseShapeClass.call(this, width, width)
+function Square(width) {
+    BaseShapeClass.call(this, width, width)
 }
 
-square.prototype = Object.create(baseShapeClass.prototype);
+Square.prototype = Object.create(BaseShapeClass.prototype);
 
-square.prototype.area = function() {
-    baseShapeClass.prototype.area.call(this);
+Square.prototype.area = function() {
+    BaseShapeClass.prototype.area.call(this);
 };
 
-var s1 = new square(10);
-var s2 = new square(20);
+var s1 = new Square(10);
+var s2 = new Square(20);
 
 s1.area();
 s2.area();
