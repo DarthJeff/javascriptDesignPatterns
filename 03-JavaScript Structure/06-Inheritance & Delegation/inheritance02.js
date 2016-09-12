@@ -1,18 +1,29 @@
 var baseShape = {
-    area: function() {
-        console.log(this._width * this._height);
+    area: {
+        value: function() {
+            console.log(this._width * this._height);
+        }
     }
 };
 
-var square = {
-    set width (w) {
-        this._width = w;
-        this._height = w;
+var squareShape = {
+    width: {
+        set: function(w) {
+            this._width = w;
+            this._height = w;
+        }
     }
 };
 
-Object.assign(square, baseShape);
+var square = {};
+Object.defineProperties(square, squareShape);
+Object.defineProperties(square, baseShape);
 
-var s = Object.create(square);
-s.width = 100;
-s.area();
+var s1 = Object.create(square);
+s1.width = 10;
+
+var s2 = Object.create(square);
+s2.width = 20;
+
+s1.area();
+s2.area();

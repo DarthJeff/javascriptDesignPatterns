@@ -15,29 +15,27 @@ var logger = {
     }
 };
 
-var loggerFactory = (function(logger){
+var loggerSingleton = (function(logger){
     return {
         create: function(){
-            return Object.create(logger);
+            if(!this._loggerInstance) {
+                this._loggerInstance = Object.create(logger);
+            }
+            return this._loggerInstance;
         }
     };
 })(logger);
 
 // somewhere in your code
-var messageLogger = loggerFactory.create();
+var messageLogger = loggerSingleton.create();
 messageLogger.log('1111');
 messageLogger.log('2222');
 
 
 // somewhere else in your code
-var anotherMessageLogger = loggerFactory.create();
+var anotherMessageLogger = loggerSingleton.create();
 anotherMessageLogger.log('3333');
 anotherMessageLogger.log('4444');
 
-
 // get logger results
-console.info('messageLogger');
 messageLogger.output();
-
-console.info('anotherMessageLogger');
-anotherMessageLogger.output();
